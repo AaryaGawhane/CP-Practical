@@ -1,0 +1,15 @@
+// String Length//
+
+PROGRAM:
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+    char arr[]= "Aarya";
+    int len1= strlen(arr);
+    printf("string= %s length= %d\n", arr, len1);
+    return 0;
+}
+
+OUTPUT:
+string= Aarya length= 5

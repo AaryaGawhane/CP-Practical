@@ -1,0 +1,19 @@
+// Strings//
+
+PROGRAM:
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+    char strname[30];
+    printf("Enter the string \n");
+    scanf("%[^\n]s", strname);
+    printf("The string is %s\n", strname);
+    return 0;
+}
+
+
+OUTPUT:
+Enter the string 
+My name is Aarya
+The string is My name is Aarya
