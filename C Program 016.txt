@@ -12,13 +12,13 @@ int main()
 {
     int total;
     struct student stud;
-    stud.eng = 75;
-    stud.maths = 70;
-    stud.science = 65;
+    stud.eng = 98;
+    stud.maths = 99;
+    stud.science = 100;
    total = stud.eng+stud.maths+stud.science;
     printf("Total is %d\n", total);
     return 0;
 }
 
 OUTPUT:
-Total is 210
+Total is 297
